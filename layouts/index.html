@@ -13,9 +13,7 @@
           {{ $src = (.Fill "288x288").RelPermalink }}
         {{ end }}
         <img
-          class="mb-2 h-36 w-36 rounded-full"
-          width="144"
-          height="144"
+          class="mb-2 h-36 w-full rounded-full"
           alt="{{ $.Site.Params.Author.name | default "Author" }}"
           src="{{ $src }}"
         />
@@ -24,7 +22,7 @@
         {{ .Params.title | default .Site.Params.Author.name | default .Site.Title | emojify }}
       </h1>
       {{ with .Site.Params.Author.headline }}
-        <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+        <h2 class="w-20em-custom text-xl text-neutral-500 dark:text-neutral-400">
           {{ . | markdownify | emojify }}
         </h2>
       {{ end }}

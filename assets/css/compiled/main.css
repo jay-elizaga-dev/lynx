@@ -1364,6 +1364,10 @@ video {
   width: 9rem;
 }
 
+.w-20em-custom { 
+  width: 20em;
+}
+
 .min-w-full {
   min-width: 100%;
 }

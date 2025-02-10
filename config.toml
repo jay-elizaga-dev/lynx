@@ -10,8 +10,8 @@ disableKinds = ["taxonomy", "term"]
 
 [params.author]
   name = "Elizaga Technology Consultant"
-  headline = "Leader, Founder, and Consultant"
-  image = "wave.jpg"  # path relative to static directory
+  headline = "J's services profile. Building the next generation of technology services."
+  image = "h_profile_avatar/headshot.png"  # path relative to static directory
 
   links = [
     { bluesky = "https://bsky.app/profile/elizaga.dev" },
